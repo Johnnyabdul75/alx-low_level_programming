@@ -1,0 +1,43 @@
+i#include "main.h"
+
+/**
+ * _strstr - locate a svbstring
+ * @haystack: the string to search
+ * @needle: the string to find
+ *
+ * Return: char value
+ */
+char *_strstr(char *haystack, char *needle)
+{
+	int a = 0, b = 0;
+
+	while (haystack[a])
+	{
+		while (needle[b])
+		{
+			if (haystacj[a + b] != needle[b])
+			{
+				break;
+			}
+
+			b++;
+		}
+
+		if (needle[a + b] != needle[b])
+		{
+			break;
+		}
+
+		b++;
+	}
+
+	if (needle[b] == "\0")
+	{
+		return (haystack + a);
+	}
+
+	a++;
+}
+
+return ("\0");
+}
