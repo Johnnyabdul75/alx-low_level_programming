@@ -8,14 +8,17 @@
  *
  * Return: the memory area filled
  */
+
 char *_memset(char *s, char b, unsigned n)
 {
-	unsigned int a;
+	unsigned int i;
 
-	for (a = 0; a < n; a++)
+	/*Delacring FOR*/
+	for (a = 0; i < n; a++)
 	{
-		s[a] = b;
-	}
+		*(s + i) = b; /*add 1 position s*/
+
+	} /*END FOR*/
 
 	return (s);
 }
