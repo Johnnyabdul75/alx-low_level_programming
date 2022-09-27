@@ -1,7 +1,7 @@
-i#include "main.h"
+#include "main.h"
 
 /**
- * _strstr - locate a svbstring
+ * _strstr - locate a substring
  * @haystack: the string to search
  * @needle: the string to find
  *
