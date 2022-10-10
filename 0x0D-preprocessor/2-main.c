@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the file name of the program
+ * main - Prints the file name of the program
  *
  * Rdturn: Always zero
  */
